@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">郵局</string>
+    <string name="account">賬號</string>
+    <string name="password">密碼</string>
+    <string name="repeat_password">再輸入一次密碼</string>
+    <string name="name">名字</string>
+    <string name="email">郵件</string>
+    <string name="phone">電話</string>
+    <string name="address">地址</string>
+    <string name="record_password">記住密碼</string>
+    <string name="login">登入</string>
+    <string name="register">註冊</string>
+    <string name="register_account">註冊賬號</string>
+    <string name="submit">送出</string>
+    <string name="forget">忘記密碼</string>
+    <string name="getpassword">找回密碼</string>
+    <string name="mailbox">郵件接收</string>
+    <string name="reply_msg">是否在2017/3/20接收郵件?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="other">其他備註</string>
+    <string name="reply">回復</string>
+    <string name="content">內容:可否在指定時間接收郵件可否在指定時間接收郵件可否在指定時間接收郵件可否在指定時間接收郵件可否在指定時間接收郵件可否在指定時間接收郵件可否在指定時間接收郵件</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tw.edu.fcu.postoffice.Activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lnlayout_frame">
+
+                <TextView
+                    android:text="@string/account"
+                    android:layout_width="match_parent"
+                    android:id="@+id/textView10"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp" />
+
+                <tw.edu.fcu.postoffice.Widget.EditTextWidget
+                    android:layout_width="match_parent"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/edt_account"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt_error_account"
+                    android:textSize="15dp"
+                    android:visibility="gone"
+                    android:textColor="@android:color/holo_red_light"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/edt_password" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@android:color/holo_red_light"
+                    android:id="@+id/txt_error_password" />
+
+                <TextView
+                    android:text="@string/repeat_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/edt_repeat_password" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@android:color/holo_red_light"
+                    android:id="@+id/txt_error_repeat_password" />
+
+                <TextView
+                    android:text="@string/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView13"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edt_name" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@android:color/holo_red_light"
+                    android:id="@+id/txt_error_name" />
+
+                <TextView
+                    android:text="@string/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView14"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/edt_email" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@android:color/holo_red_light"
+                    android:id="@+id/txt_error_email" />
+
+                <TextView
+                    android:text="@string/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:id="@+id/edt_phone" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@android:color/holo_red_light"
+                    android:id="@+id/txt_error_phone" />
+
+                <TextView
+                    android:text="@string/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress"
+                    android:ems="10"
+                    android:id="@+id/edt_address"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@android:color/holo_red_light"
+                    android:id="@+id/txt_error_address" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="@string/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="submitButon"
+                android:id="@+id/btn_submit" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
